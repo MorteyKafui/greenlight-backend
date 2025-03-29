@@ -10,4 +10,8 @@ require (
 
 require github.com/tomasen/realip v0.0.0-20180522021738-f0c99a92ddce
 
-require golang.org/x/crypto v0.36.0 // indirect
+require (
+	github.com/wneessen/go-mail v0.6.2 // indirect
+	golang.org/x/crypto v0.36.0 // indirect
+	golang.org/x/text v0.23.0 // indirect
+)
